@@ -29,7 +29,7 @@
 - **Hybrid Retrieval：向量＋關鍵字＋MetaData**  
   - 結合 **向量相似度 ＋ BM25 關鍵字分數 ＋ MetaData Filter** 篩選結果，  
   - 對「同時被向量搜尋、關鍵字搜尋、MetaData Filter 命中的段落」給予較高權重，
-  - 再做一層簡單的重排序，挑出最有代表性的 Top-k chunks。
+  - 再做一層重排序，挑出最有代表性的 Top-k chunks。
 
 - **對話記憶**  
   - 紀錄最近多輪對話，支援「延續同一台設備」的追問與補充說明。  
