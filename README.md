@@ -27,7 +27,7 @@
   - 查詢時會把「檢索到的相關內容 + 使用者問題」一起丟給 Qwen，產生維修建議。
 
 - **Hybrid Retrieval：向量＋關鍵字＋MetaData**  
-  - 以向量相似度搭配 **BM25** 關鍵字分數。  
+  - 結合 **向量相似度 ＋ BM25 關鍵字分數 ＋ MetaData Filter** ，  
   - 對「同時被向量搜尋、關鍵字搜尋、MetaData Filter 命中的段落」給予較高權重，
   - 再做一層簡單的重排序，挑出最有代表性的 Top-k chunks。
 
