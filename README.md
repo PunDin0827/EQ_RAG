@@ -42,7 +42,7 @@
   - BM25 keyword search
   - Metadata filter (EQ_name , alarm_code)
     ↓
-nodes re-rank
+nodes rerank
     ↓
 Top-k relevant chunks
     ↓
