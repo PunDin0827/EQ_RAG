@@ -46,6 +46,6 @@ nodes rerank
     ↓
 Top-k relevant chunks
     ↓
-[Qwen 生成回答 (LLM)]
+[Qwen 生成回答]
     ↓
 回傳維修步驟 / 建議
