@@ -75,7 +75,5 @@ nodes rerank & Top-k relevant chunks
 
 ```
 
-
-  
-**實際上線版本已在公司內部環境中，以 Python 服務 + MQTT 方式串接 Node-RED Dashboard。**  
-‪<img width="1418" height="542" alt="CNC" src="https://github.com/user-attachments/assets/f322038a-cae3-4429-8a89-e3320d9c36a3" />
+## 實際上線版本已在公司內部環境中，以 Python 服務 + MQTT 方式串接 Node-RED Dashboard。
+‪<img width="1418" height="542" alt="維修助理 Dashboard" src="https://github.com/user-attachments/assets/f322038a-cae3-4429-8a89-e3320d9c36a3" />
